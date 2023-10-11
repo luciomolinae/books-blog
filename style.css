@@ -224,6 +224,13 @@ header{
 
 }
 
+/* Estilos del Form */
+.form_form{
+    background-color: #EEAE81;
+    font-weight: bold;
+
+}
+
 /* Estilos del Footer */
 
 footer{
