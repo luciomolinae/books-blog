@@ -231,6 +231,105 @@ header{
 
 }
 
+/* Estilos Foro */
+
+#testimonios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.testimonios_cabecero{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonios_cabecero h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #202020;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.testimonios_cabecero span{
+    font-size: 1.3rem;
+    color: #252525;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.testimonios_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.testimonio_item{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.testimonio_item:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.perfil-img{
+    width: 50px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.usuario{
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.usuario span{
+    color: #979797;
+    font: 0.8rem;
+}
+
+.opinion{
+    color: yellow;
+}
+
+.item_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comentarios p{
+    font: 0.9rem;
+    color: #4b4b4b;
+}
 /* Estilos del Footer */
 
 footer{
@@ -290,12 +389,29 @@ hr{
 
 }
 
+@media (max-width:1060px){
+    .testimonio_item{
+        width: 45%;
+        padding: 10px;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .content_main {
         padding: 50px 10px 300px 10px;
     }
     .content_main_2 {
         font-size: 0.8em;
+    }
+}
+
+@media (max-width:790px){
+    .testimonio_item{
+        width: 100%;
+    }
+
+    .testimonios_cabecero{
+        font-size: 1.4rem;
     }
 }
 
@@ -342,4 +458,15 @@ hr{
 
 
 
+}
+
+@media(max-width: 340px){
+    .item_top{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    .opinion{
+        margin-top: 10px;
+    }
 }
