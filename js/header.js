@@ -18,4 +18,14 @@ document.getElementById("header").innerHTML = `
         </nav>
                 
     </div>
+
+    <div class="dropdown">
+        <ul>
+            <li>Arquitectura</li>
+            <li>Gastronomía</li>
+            <li>Hogar</li>
+            <li>Moda</li>
+            <li>Turismo</li>
+        </ul>
+    </div>
 `
