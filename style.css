@@ -7,6 +7,7 @@
 
 body{
     background-color: #B8662C;
+    
 }
 
 /* .container_img{
@@ -40,12 +41,13 @@ header{
     padding: 10px 0px;
 }
 
-.logo{
+.logo_header{
 
     text-decoration: none;
     color: #EEAE81;
     padding-left: 10px;
-
+    max-width: 100px; 
+    height: auto; 
 }
 
 .tab-nav{
@@ -109,68 +111,47 @@ header{
 
 /* Estilos del main */
 
-.content_main {
-    padding: 100px 10px 500px 10px; 
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
+.bg_index{
     background-image: linear-gradient(rgba(231, 144, 12, 0.65), rgb(112, 38, 4)), url(assets/julie-may-0tbVzqmhu1g-unsplash.jpg);
     background-size: cover;
-    background-position: center;
-    grid-template-areas:
-     "element1 element1"
-     "element2 element2"
-     "element3 element3";
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 120vh;
 }
 
-.content_main_1{
-    grid-area: element1;
-    color: #FFF;
-    font-size: 3em;
+.content_main {
+    color: #ffffff;
+    max-width: 620px;
+    padding-left: 50px;
+   
 }
 
-.content_main_2{
-    grid-area: element2;
-    color: #FFF;
-    font-size: 1.5em;
+.content_main h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    /* margin-bottom: 20px; */
+    padding-top: 200px;
 }
 
-.content_main_3{
-    grid-area: element3;
+.content_main form{
     display: flex;
     align-items: center;
-    width: 800px;
-    height: 40px;
-    font-size: 1em;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
 }
-
-.content_main_3 input[type="text"] {
-    border: 2px;
-    width: 400px;
-    height: 40px;
-    font-size: 1em;
-    margin-right: 10px;
-    border: none;
-    outline: none;
-    border-radius: 0;
+.content_main form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
 }
-
-.btn{
-    border-radius: 8px;
-    background-color: #EEAE81;
-    width: 150px;
-    height: 40px;
-    font-size: 1em;
-    outline: none;
-    border: 2px solid #D98E54;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #FFD699;
-}
-
-.btn:active {
-    background-color: #D98E54;
+.content_main form .btn_main{
+    font-size: 15px;
+    padding: 10px 30px;
 }
 
 
@@ -239,6 +220,7 @@ header{
     align-items: center;
     flex-direction: column;
     width: 100%;
+    background-color: #EEAE81;
 }
 
 .testimonios_cabecero{
@@ -254,7 +236,7 @@ header{
 .testimonios_cabecero h1{
     font-size: 2.2rem;
     font-weight: 500;
-    background-color: #202020;
+    background-color: #6B4E3A;
     color: #ffffff;
     padding: 10px 20px;
 }
@@ -276,8 +258,8 @@ header{
 
 .testimonio_item{
     width: 500px;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgba(218, 197, 8, 0.1);
+    background-color: #B8662C;
     padding: 20px;
     margin: 15px;
     cursor: pointer;
@@ -306,12 +288,12 @@ header{
 }
 
 .usuario strong{
-    color: #3d3d3d;
+    color: #fff;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
 }
 .usuario span{
-    color: #979797;
+    color: #fff;
     font: 0.8rem;
 }
 
@@ -328,7 +310,7 @@ header{
 
 .comentarios p{
     font: 0.9rem;
-    color: #4b4b4b;
+    color: #fff;
 }
 /* Estilos del Footer */
 

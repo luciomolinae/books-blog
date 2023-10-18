@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
+    <!-- Font-Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha384-bS/HUig6kF0d8tclVGHPXpbm3Wv8P7kE1uLXa02z2K0ZR0r06WtKa4lX3fyzf3x8" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <title>Books Blog</title>
 </head>
 <body>
     <header>
         <div class="container">
             <nav class="nav_checkbox">
-                <a href="#" class="logo"><h2>LOGO</h2></a>
+                <a href="#" class="logo"><img class="logo_header" src="/assets/logo.png" alt=""></a>
                 <input type="checkbox" id="tab-nav" class="tab-nav">
                 <label for="tab-nav" class="label">
                     <div class="burger"></div>
@@ -23,30 +27,32 @@
                 </label>
                 <ul class="content_nav">
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="autores.html">AUTORES</a></li>
+                    <li><a href="foro.html">FORO</a></li>
                     <li><a href="libros.html">LIBROS</a></li>
                     <li><a href="form.html">INSCRIBITE</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div class="content_main">
-        <h1 class="content_main_1">Ejemplo<br>de nuestro ejemplo</h1>
-        <p class="content_main_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatum fugiat cumque, nulla facilis quia at temporibus ullam magnam est earum excepturi quis mollitia odio vero consectetur veniam? Placeat, pariatur?</p>
-        <form class="content_main_3" action="">
-            <input type="text" placeholder="busqueda">
-            <button type="submit" class="btn">boton</button>
-        </form>
+    <div class="bg_index">
+        <div class="content_main">
+            <h1>Muchos Libros <br> para leer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium velit laborum similique nulla, iusto perspiciatis.</p>
+            <form action="">
+                <input type="text" placeholder="Busca algun libro" name="" id="">
+                <button type="submit" class="btn_main">Buscar</button>
+            </form>
+        </div>
     </div>
-        
+            
     <footer>
         <div class="content_footer">
-                <h2>Nombre del Logo</h2>
+                <h2>Books Blog</h2>
                 <ul>
-                    <li><a href="#">ITEM</a></li>
-                    <li><a href="#">ITEM</a></li>
-                    <li><a href="#">ITEM</a></li>
-                    <li><a href="#">ITEM</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Productos</a></li>
                 </ul>
             <div class="cuentas">
                 <i class="fa-brands fa-facebook"></i>
@@ -55,10 +61,10 @@
                 <i class="fab fa-pinterest"></i> 
             </div>
         </div>
-        <hr>
-        <p class="copyright">Todos los derechos reservados &copy; 2023</p>
+        
+        <!-- <p class="copyright">Todos los derechos reservados &copy; 2023</p> -->
     </footer>
-</div>
+<!-- Font-Awesome -->
 <script src="https://kit.fontawesome.com/709d7bb112.js" crossorigin="anonymous"></script>
 </body>
 </html>
