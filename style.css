@@ -209,6 +209,15 @@ header{
 .form_form{
     background-color: #EEAE81;
     font-weight: bold;
+    background-image: linear-gradient(rgba(92, 56, 2, 0.65), rgb(112, 38, 4)), url(assets/julie-may-0tbVzqmhu1g-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.form_form h1{
+    font-weight: 800;
 
 }
 
